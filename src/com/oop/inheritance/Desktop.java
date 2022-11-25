@@ -16,5 +16,18 @@ public class Desktop extends  Device{
         this.chipset = chipset;
     }
 
+    @Override
+    public void price() {
+        System.out.println(2000);
+    }
 
+    @Override
+    public String toString() {
+        return "Desktop{" +
+                "graphic='" + graphic + '\'' +
+                ", keyboard='" + keyboard + '\'' +
+                ", mouse='" + mouse + '\'' +
+                ", chipset='" + chipset + '\'' +
+                "} " + super.toString();
+    }
 }

@@ -38,4 +38,15 @@ public class Device {
                 ", make='" + make + '\'' +
                 '}';
     }
+
+    public void price(){
+        System.out.println(
+                "Price of : "+name+" , Model : "+model+" Made by : "+make+
+                         " is : "+calPrice()
+        );
+    }
+
+    private int calPrice() {
+        return 100;
+    }
 }
